@@ -36,27 +36,8 @@ const Projects = () => {
           <img src="./images/sneakylegss.PNG" alt="" />
         </div>
       </div>
-      <div className="left__items">
-        <div className="project__details">
-          <h2>All Nations</h2>
-          <p>This is a website for an NGO</p>
 
-          <div className="stackss">
-            <h6>React js</h6>
-            <h6>JavaScript</h6>
-          </div>
-          <div className="project__link">
-            <a href="https://ancypif.vercel.app/" target="blank">
-              view live project
-              <LanguageIcon />
-            </a>
-          </div>
-        </div>
-        <div data-aos="fade-right" className="image">
-          <img src="./images/AN.png" alt="" />
-        </div>
-      </div>
-      <div className="right__items">
+      <div className="left__items">
         <div className="project__details">
           <h2>LIBRARIE</h2>
           <p>A book search app, the Google books api powers search feature</p>
@@ -89,30 +70,11 @@ const Projects = () => {
             </a>
           </div>
         </div>
-        <div data-aos="fade-left" className="image">
+        <div data-aos="fade-right" className="image">
           <img src="./images/library.png" alt="" />
         </div>
       </div>
-      <div className="left__items">
-        <div className="project__details">
-          <h2>AppleTV+ clone</h2>
-          <p>It's a clone of the apple tv plus page</p>
-          <div className="stackss">
-            <h6>React</h6>
-            <h6>JavaScript</h6>
-            <h6>TMDB API</h6>
-          </div>
-          <div className="project__link">
-            <a href="http://appletvplus-clone.vercel.app/" target="blank">
-              view live project
-              <LanguageIcon />
-            </a>
-          </div>
-        </div>
-        <div data-aos="fade-right" className="image">
-          <img src="./images/applee.PNG" alt="" />
-        </div>
-      </div>
+
       <div className="right__items">
         <div className="project__details">
           <h2>CRAPPO</h2>

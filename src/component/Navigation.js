@@ -27,19 +27,16 @@ const Navigation = () => {
       <div className="navigation__container">
         <div>
           <div className="icons">
-            <a className={y <= "600" ? "active" : ""} href="#home">
+            <a className={y <= "600" && "active"} href="#home">
               <PersonIcon />
             </a>
-            <a className={y > 600 && y < 3030 ? "active" : ""} href="#projects">
+            <a className={y > 600 && y < 2785 && "active"} href="#projects">
               <WorkIcon />
             </a>
-            <a
-              className={y > 3030 && y < 3654 ? "active" : ""}
-              href="#navigation"
-            >
+            <a className={y > 2785 && y < 3278 && "active"} href="#navigation">
               <LaptopIcon />
             </a>
-            <a href="#contact" className={y > 3654 ? "active" : ""}>
+            <a href="#contact" className={y > 3278 && "active"}>
               <PhoneIcon />
             </a>
           </div>
